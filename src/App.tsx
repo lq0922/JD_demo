@@ -1,12 +1,17 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import WaitPage from "./pages/brandCarnival/wait";
+import HomePage from "./pages";
 
 const App: React.FC = () => {
-    return (
-        <div>
-            <h1>欢迎使用 TypeScript React 项目</h1>
-            <p>这是一个示例项目。</p>
-        </div>
-    );
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/WaitPage" element={<WaitPage />} />
+      </Routes>
+    </Router>
+  );
 };
 
 export default App;

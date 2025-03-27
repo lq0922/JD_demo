@@ -1,0 +1,116 @@
+.footer {
+  position: absolute;
+  top: 460.3px;
+  left: 10px;
+  width: 357px;
+  height: 229px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  background-image: url(../../../assets/images/tabBg.png);
+  position: relative;
+  border-radius: 5px;
+}
+
+.tab {
+  cursor: pointer;
+  width: 99px;
+  height: 37.3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-size: 14.67px;
+  font-family: 京东朗正体 2.0;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.tab.active {
+  transform: scaleX(1.0068);
+  transform: scaleY(1.28);
+  position: relative;
+  top: -3px;
+  color: #ffffff;
+  background-color: #5825DF;
+  border-radius: 5px;
+}
+
+.long-images {
+  width: 355px;
+  height: 70px;
+  position: relative;
+  top: -5px;
+  left: -0.7px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.long-image {
+  width: 355px;
+  height: 70px;
+  background-size: cover;
+  background-position: center;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  transform: translateX(-50%);
+  z-index: 999;
+}
+
+.indicator {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #000000;
+  cursor: pointer;
+  z-index: 999;
+  margin: 0 5px;
+}
+
+.indicator.active {
+  background-color:#ffffff;
+}
+
+.horizontal-images {
+  display: flex;
+  overflow-x: auto;
+}
+
+.horizontal-image {
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+}
+
+.scroll-img {
+  width: 365px;
+  position: relative;
+  display: flex;
+  overflow-x: auto;
+  top: 5px;
+  gap: 8px;
+  scrollbar-width: none;
+}
+
+.scroll-img::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-image {
+  width: 88px;
+  height: 115.67px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+}

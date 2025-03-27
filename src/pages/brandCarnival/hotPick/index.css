@@ -1,0 +1,54 @@
+.hot-pick-title-icon {
+  width: 24.33px;
+  height: 24px;
+  position: absolute;
+  top: 279.3px;
+  left: 12.3px;
+  background-image: url(../../../assets/images/hotPick.png);
+}
+
+.hot-pick-title-text {
+  color: #FFFFFF;
+  font-size: 15.33px;
+  font-family: FZLanTingHeiS-EB-GB;
+  font-weight: 400;
+  position: absolute;
+  top: 285.3px;
+  left: 41.7px;
+}
+
+.hot-pick-item1{
+  width: 120.67px;
+  height: 134px;
+  position: absolute;
+  top: 313.3px;
+  left: 10px;
+  background-image: url(../../../assets/images/hotPickitem1.png);
+}
+
+.hot-pick-item2{
+  width: 111.33px;
+  height: 64px;
+  position: absolute;
+  top: 313.3px;
+  left: 136.7px;
+  background-image: url(../../../assets/images/hotPickitem2.png);
+}
+
+.hot-pick-item3{
+  width: 111.33px;
+  height: 64px;
+  position: absolute;
+  top: 313.3px;
+  right: 9.7px;
+  background-image: url(../../../assets/images/hotPickitem3.png);
+}
+
+.hot-pick-item4 {
+  width: 228.67px;
+  height: 64px;
+  position: absolute;
+  left: 136.7px;
+  top: 383.3px;
+  background-image: url(../../../assets/images/hotPickitem4.png);
+}

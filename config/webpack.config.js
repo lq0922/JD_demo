@@ -147,6 +147,15 @@ module.exports = function (webpackEnv) {
                   // so that it honors browserslist config in package.json
                   // which in turn let's users customize the target behavior as per their needs.
                   'postcss-normalize',
+                  require('postcss-pxtorem')({
+                    rootValue: 16,
+                    propList: ['*'],
+                    selectorBlackList: [],
+                    minPixelValue: 2,
+                    replace: true,
+                    mediaQuery: false,
+                    exclude: /node_modules/i
+                  }),
                 ]
               : [
                   'tailwindcss',

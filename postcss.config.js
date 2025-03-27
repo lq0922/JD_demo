@@ -1,11 +1,11 @@
 module.exports = {
-    plugins: {
-        autoprefixer: {},
-        'postcss-pxtorem': {
-            rootValue: 16, // 基准值，1rem = 16px
-            propList: ['*'], // 转换所有属性
-            selectorBlackList: [], // 不忽略任何选择器
-            minPixelValue: 1 // 转换大于等于 1px 的值
-        }
-    }
+  plugins: {
+    'postcss-pxtorem': {
+      rootValue: 16, // 根据设计稿的基准字号调整
+      propList: ['*'], // 允许转换的属性列表，'*' 表示所有属性
+      selectorBlackList: ['.ignore', '.hairlines'], // 忽略的选择器
+      minPixelValue: 2, // 设置要替换的最小像素值
+    },
+    autoprefixer: {}, // 自动添加浏览器前缀
+  },
 };

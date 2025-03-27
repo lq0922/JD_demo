@@ -1,0 +1,142 @@
+.month {
+  width: 20px;
+  height: 23px;
+  position: absolute;
+  top: 113.7px;
+  left: 14.7px;
+  background-image: url(../../../assets/images/month.png);
+}
+
+.daily-pick-title {
+  width: 62px;
+  height: 19px;
+  color: #FFFFFF;
+  font-size: 15.33px;
+  font-family: FZLanTingHeiS-EB-GB;
+  font-weight: 400;
+  position: absolute;
+  top: 119.7px;
+  left: 41.7px;
+}
+
+.daily-pick-sub {
+  width: 60px;
+  height: 21.45px;
+  box-sizing: border-box;
+  border: 0.67px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 11.33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12.67px;
+  font-family: FZLanTingHeiS-M-GB;
+  font-weight: 400;
+  position: absolute;
+  top: 115.3px;
+  left: 305px;
+  transition: all 0.3s;
+}
+
+.daily-pick-date {
+  width: 355px;
+  height: 125.67px;
+  position: absolute;
+  top: 145.7px;
+  left: 10px;
+  background-image: url(../../../assets/images/date.png);
+  display: flex;
+}
+
+.day {
+  width: 21.33px;
+  height: 21.33px;
+  border-radius: 50%;
+  background-color: #F0F0F0;
+  color: #000000;
+  font-size: 10.67px;
+  font-family: 京东正黑体;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35.4;
+  transition: all 0.3s;
+  margin-top: 35.4px;
+}
+.day:first-child {
+  margin-left: 24px;
+}
+.date:nth-child(2) {
+  margin-left: 1.7px;
+}
+
+.date:nth-child(3) {
+  margin-left: 2.1px;
+}
+.date:nth-child(4) {
+  margin-left: 2.5px;
+}
+
+.date:nth-child(5) {
+  margin-left: 2.1px;
+}
+.date:nth-child(6) {
+  margin-left: 2.1px;
+}
+.date:nth-child(7) {
+  margin-left: 2.1px;
+}
+.focused{
+  background-color: #FCD40A;
+  color: #FCD40A;
+}
+
+.dayBox {
+  position: absolute;
+  width: 44px;
+  height: 25.67px;
+  top: 33.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  background-image: url(../../../assets/images/dayBox.png);
+}
+
+.dayBoxText {
+  width: 21.3px;
+  height: 21.3px;
+  border-radius: 50%;
+  background-color: #FCD40A;
+}
+
+.item1 {
+  width: 341.67px;
+  height: 26.67px;
+  position: absolute;
+  top: 59px;
+  left: 6px;
+  border-radius: 5px;
+  background-image: url(../../../assets/images/dayContent.png);
+}
+
+.item2 {
+  width: 168.33px;
+  height: 26.67px;
+  position: absolute;
+  top: 90px;
+  left: 6px;
+  border-radius: 5px;
+  background-image: url(../../../assets/images/item2.png);
+}
+
+.item3 {
+  width: 168.33px;
+  height: 26.67px;
+  position: absolute;
+  top: 90px;
+  right: 7.3px;
+  border-radius: 5px;
+  background-image: url(../../../assets/images/item3.png);
+}

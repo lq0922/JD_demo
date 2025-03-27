@@ -1,7 +1,34 @@
 .brand-carnival {
   width: 375px;
-  height: 667px;
+  height: 694.3px;
   background-image: url(../../assets/images/bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+}
+
+.head-title {
+  width: 177.67px;
+  height: 58.33px;
+  position: absolute;
+  left: 98.7px;
+  top: 52.3px;
+  background-image: url(../../assets/images/head-title.png);
+  z-index: 100;
+}
+
+.Carousel {
+  width: 86.67px;
+  height: 86.67px;
+  position: absolute;
+  top: -14.3px;
+  left: 144.7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/images/carouselBg.png);
+}
+
+.carousel {
+  width: 76px;
+  height: 65px;
 }

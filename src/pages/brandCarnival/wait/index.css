@@ -1,0 +1,7 @@
+.wait-page {
+  width: 375px;
+  height: 667px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
